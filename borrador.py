@@ -4,14 +4,16 @@ os.system("cls")
 # BORRADOR
 
 print()
-print("Programa de conteo")
+print("Programa de conteo") #Presentacion del programa de conteo
 print()
 
-x = int((input("Ingrese el numero desde el cual inicia el conteo :")))
+x = int((input("Ingrese el numero desde el cual inicia el conteo :")))   # entrada de variables de inicio y fin
 y = int((input("ingrese hasta que numero desea que llege el conteo: ")))
 
 print(x)
 
-while x<y:
-    x = x+1
-    print(x)
+while x<y:     # bucle de conteo
+    x = x+1    # contador 
+    print(x)   # impresion del valor actualizado del contador
+
+os.system("pause")      # "presione una tecla para continuar"
