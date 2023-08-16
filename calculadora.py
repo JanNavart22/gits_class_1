@@ -1,7 +1,28 @@
 import os
 os.system("cls")
 
+#-----------------------------------------------------------------------
+
 #"""                   Calculadora
+print()
+print("Programa de suma, resta, multiplicacion, division y exponente    ") 
+print()
+
+x = float((input("Ingrese un numero cualquiera: ")))   
+y = float((input("ingrese otro numero cualquiera: ")))
+
+print(x,"+",y ," es igual a : ",x+y)
+print(x,"-",y ," es igual a : ",x-y)
+print(x,"*",y ," es igual a : ",x*y)
+print(x,"/",y ," es igual a : ",x/y)
+print(x,"modulo",y ," es igual a : ",x%y)
+print(x,"expo",y ," es igual a : ",x**y)
+
+os.system("pause")
+
+#"""
+
+#"""                   Calculadora con decisiones
 
 print()
 print("Programa de suma, resta, multiplicacion y division   ") 
