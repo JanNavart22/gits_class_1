@@ -5,7 +5,7 @@ os.system("cls")
 ''' 1. Escriba un programa que almacene (Input) en una Lista las materias que has cursado con sus respectivas 
 notas. Luego muestre la lista por consola mediante un ciclo.'''
 
-'''
+#'''
 print('Vamos a enlistar las materias y sus respectivas notas que usted ha tomado...')
 print()
 
@@ -42,7 +42,7 @@ os.system('pause')
 '''2. Escriba un programa que almacene personas (input), luego que le muestre 
 por pantalla el mensaje de ‘Su nombre es ‘nombre’'''
 
-'''
+#'''
 print('Vamos a enlistar nombres de personas')
 print()
 print('ingrese el nombre de las personas, al terminar escriba(fin)')
@@ -69,11 +69,45 @@ os.system('pause')
 {'Euro':'€', 'Dollar':'$', 'Yen':'¥'} Luego pregunte al usuario por una divisa y el valor en pesos a convertir. Luego muestre en consola el 
 símbolo con el valor que corresponde a la divisa o un mensaje de advertencia si esa divisa no se encuentra en 
 el diccionario.'''
+
+#"""
+
+print('convertidor de divisas....')
+print()
+
+Valores = {'euro':5000, 'dolar':4000 , 'yen': 6000}
+print(Valores)
+print()
+
+while True:
+    divisa = input('ingrese la dividia a la que desea convertir (euro-dolar-yen): ')
+    if divisa == 'euro':
+        pesos = int(input('ingrese los pesos a convertir: '))
+        conv = pesos * 5000
+        print(pesos,'colombianos equivalen a ',conv,' euros.')
+        break
+    elif divisa == 'dolar':
+        pesos = int(input('ingrese los pesos a convertir: '))
+        conv = pesos * 4000
+        print(pesos,'colombianos equivalen a ',conv,' dolares.')
+        break
+    elif divisa == 'yen':
+        pesos = int(input('ingrese los pesos a convertir: '))
+        conv = pesos * 6000
+        print(pesos,'colombianos equivalen a ',conv,' yenes.')
+        break
+    else:
+        print('la divisa dada no corresponde ninguna de las opciones disponibles...')
+
+os.system("pause") 
+#"""
 #---------------------------------------------------------------------------------------------------
 
 '''4. En una tupla coloque o ingrese (input) los siguientes valores: números enteros, 
 decimales, String, colecciones. Luego muestre en consola que tipo de datos o variable son los valores 
 digitados.'''
+
+#'''
 print('ingrese elementos al azar, al termianr escriba(fin)')
 print()
 
@@ -117,4 +151,4 @@ for z in lista:
     
 
 os.system('pause')
-
+#'''

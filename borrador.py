@@ -9,11 +9,13 @@ os.system("cls")
 
 #"""
 
+Valores = {'euro':5000, 'dolar':4000 , 'yen': 6000}
+print(Valores)
+
+print(Valores.keys('yen'))
+
 os.system("pause") 
 #"""
-
-# BORRADOR
-
 #-------------------------------------------------------------------------------------
 
 """
