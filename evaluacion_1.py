@@ -2,6 +2,7 @@ import os
 os.system("cls")
 #---------------------------------------------------------------------------------------------------
 
+
 ''' 1. Escriba un programa que almacene (Input) en una Lista las materias que has cursado con sus respectivas 
 notas. Luego muestre la lista por consola mediante un ciclo.'''
 
